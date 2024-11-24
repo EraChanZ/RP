@@ -1,0 +1,30 @@
+I want to erase  the Technical Constraints subsetion of the research question, and instead just have two subsections: "qualitative comparison", and "quantitative comparison". Qualitative comparison should include subsections: "Availability of data",  "Availability of resources", and "Scalabilty". Qualitative comparison should have subsections: ""
+
+My main research question is: How effective is domain adaptation in enhancing the performance of
+visual hand landmark prediction AI when transitioning from RGB to infrared (IR) imaging domains?
+
+The way i want to divide this question into subquestions is by focusing on the 3 areas: qualitative comparison, quantitative comparison, and Data. I am writing this paper as part of the Research Project course in TU Delft, so I have some limitations compared to a normal research, mainly that I have a deadline in 1.5 months and limited computational resources. The approach that I want to take is by creating some sort of iterative refective process of investigating into different domain adaptation methods, selecting a feasable one, enriching the data suitable for a feasable approach, running and evaluating the results, after which reflecting on the time spent, accuracy, and how well does the metric used for evaluation reflect methods ability to improve performance of visual hand landmark prediction. And then select the model which seems prominent and will not take too much time, and will handle the limitations of previous models in a better way. So I will try to do deep learning methods, manual annotation, using similar datasets for training, unsupervised non deep learning methods, etc. I established I will use google's hand landmark predictor as base landmark prediction model, but it was just trained on RGB videos, and we just have unlabeled infrared videos of hands in our hands. 
+
+
+Good proposed subquestions:
+How does the availability of data in the infrared domain compare to the RGB domain 
+in terms of quality and quantity for implementing known domain adaptation methods?
+
+Objective Criteria for Success: Identify datasets that provide sufficient coverage 
+and quality for effective model training.
+
+What is the impact of domain adaptation on the accuracy of hand 
+landmark prediction when transitioning from RGB to IR?
+
+Objective Criteria for Success: Achieve a statistically significant improvement 
+in prediction accuracy over the baseline model.
+
+What are the primary challenges in adapting Google's hand landmark prediction 
+model, originally trained on RGB data, to accurately detect hand landmarks 
+in IR videos?
+
+How can hand landmark detection accuracy be effectively evaluated using 
+improved domain adaptation methods, considering per-frame and temporal metrics?
+
+Do the deep DA methods have a potential to improve shallow methods given our data access, 
+and time bounds of the project?
