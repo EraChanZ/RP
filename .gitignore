@@ -28,11 +28,9 @@
 *.synctex*
 *.nav
 *.snm
-*.pdf
 
 # Build directories
 /build/
-/pdf/
 /aux/
 
 # Temporary files
