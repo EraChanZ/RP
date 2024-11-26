@@ -64,4 +64,5 @@ Thumbs.db
 *.~
 
 # Datasets
-/experiments/video_dataset15/
+/datasets/
+/debug_logs/
