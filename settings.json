@@ -1,0 +1,7 @@
+{
+    "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+    "jupyter.enableNativeInteractiveWindow": true,
+    "jupyter.interactiveWindowMode": "perFile",
+    "notebook.output.textLineLimit": 100,
+    "notebook.output.scrolling": true
+}
