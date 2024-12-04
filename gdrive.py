@@ -62,10 +62,7 @@ def upload_file(file_path, folder_id):
     print(f"File {file_path} uploaded with ID: {file.get('id')}")
 
 # Create local directory if it doesn't exist
-local_folder = 'datasets/ourData'
-os.makedirs(local_folder, exist_ok=True)
-
-# Start the recursive download process
+local_folder = 'datasd download process
 folder_id = '1K5jG2Q8MOkppU2DXJFM6FzHR5IvQVxXP'
 #process_folder(folder_id, local_folder)
 
