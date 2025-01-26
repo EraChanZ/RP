@@ -1,0 +1,10 @@
+README.md
+setup.py
+custom_eval_framework/__init__.py
+custom_eval_framework/custom_dataset.py
+custom_eval_framework/eval_predictions.py
+custom_eval_framework.egg-info/PKG-INFO
+custom_eval_framework.egg-info/SOURCES.txt
+custom_eval_framework.egg-info/dependency_links.txt
+custom_eval_framework.egg-info/requires.txt
+custom_eval_framework.egg-info/top_level.txt
