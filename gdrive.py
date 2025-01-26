@@ -4,7 +4,7 @@ from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
 import os
 
 creds = service_account.Credentials.from_service_account_file(
-    'datasciencestuff-504b93ed360f.json',
+    'datasciencestuff-8ca9bb154814.json',
     scopes=['https://www.googleapis.com/auth/drive']
 )
 
@@ -62,11 +62,9 @@ def upload_file(file_path, folder_id):
     print(f"File {file_path} uploaded with ID: {file.get('id')}")
 
 # Create local directory if it doesn't exist
-local_folder = 'datasd download process
+local_folder = "ourData3"
 folder_id = '1K5jG2Q8MOkppU2DXJFM6FzHR5IvQVxXP'
 #process_folder(folder_id, local_folder)
 
 # Upload the specific file to the corresponding subfolder on Google Drive
-file_to_upload = '/home/user/Desktop/RP/datasets/ourData/Data/Dataset/Annotations/landmarks_normalized_vladimir.json'
-subfolder_id = '1K5jG2Q8MOkppU2DXJFM6FzHR5IvQVxXP'  # Replace with the actual subfolder ID
-upload_file(file_to_upload, subfolder_id)
+process_folder(folder_id, local_folder)
